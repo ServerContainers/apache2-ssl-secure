@@ -30,3 +30,4 @@ HEALTHCHECK --interval=1m --timeout=3s \
 EXPOSE 80 443
 
 ENTRYPOINT ["/container/scripts/entrypoint.sh"]
+CMD [ "runsvdir","-P", "/container/config/runit" ]

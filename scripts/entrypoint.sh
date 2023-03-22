@@ -81,5 +81,9 @@ fi
 echo ">> copy /etc/apache2/external/*.conf files to /etc/apache2/sites-enabled/"
 cp /etc/apache2/external/*.conf /etc/apache2/sites-enabled/ 2> /dev/null > /dev/null
 
-echo ">> starting services"
-exec runsvdir -P /container/config/runit
+##
+# CMD
+##
+echo ">> CMD: exec docker CMD"
+echo "$@"
+exec "$@"
