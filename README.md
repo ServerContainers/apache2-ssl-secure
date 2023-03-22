@@ -59,3 +59,4 @@ You should overwrite the _/etc/apache2/external/_ with a folder, containing your
     -v $EXT_DIR:/etc/apache2/external/ \
     ghcr.io/servercontainers/apache2-ssl-secure
 
+
