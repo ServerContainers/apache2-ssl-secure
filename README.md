@@ -36,8 +36,6 @@ To build a `latest` tag run `./build.sh release`
     * runit as service mangaer
     * multiarch build
 
-_should still be compatible with the old legacy version of this container_
-
 ## Environment variables and defaults
 
 * __DISABLE\_TLS__
@@ -50,7 +48,7 @@ _should still be compatible with the old legacy version of this container_
  * default: not set - if set together with __HSTS\_HEADERS\_ENABLE__ and set to any value the HTTP Strict Transport Security will be deactivated on subdomains
 
 
-## Running marvambass/apache2-ssl-secure Container
+## Running ghcr.io/servercontainers/apache2-ssl-secure Container
 
 This Dockerfile is not really made for direct usage. It should be used as base-image for your apache2 project. But you can run it anyways.
 
