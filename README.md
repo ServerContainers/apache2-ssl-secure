@@ -10,14 +10,14 @@ View in GitHub Registry [ghcr.io/servercontainers/apache2-ssl-secure](https://gh
 
 View in GitHub [ServerContainers/docker-apache2-ssl-secure](https://github.com/ServerContainers/docker-apache2-ssl-secure)
 
-This Dockerfile is based on the [/_/debian:bullseye/](https://registry.hub.docker.com/_/debian/) Official Image.
+This Dockerfile is based on the [/_/debian:trixie/](https://registry.hub.docker.com/_/debian/) Official Image.
 
 ## Build & Versioning
 
 You can specify `DOCKER_REGISTRY` environment variable (for example `my.registry.tld`)
 and use the build script to build the main container and it's variants for _x86_64, arm64 and arm_
 
-You'll find all images tagged like `d11.2-a1.18.0-6.1` which means `d<debian version>-a<apache version (with some esacped chars)>`.
+You'll find all images tagged like `d13.0-a2.4.67-4` which means `d<debian version>-a<apache version (with some esacped chars)>`.
 This way you can pin your installation/configuration to a certian version. or easily roll back if you experience any problems
 (don't forget to open a issue in that case ;D).
 
